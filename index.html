@@ -6,21 +6,50 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
         body {
+            margin: 0;
+            padding: 0;
+            border: border-box;
             display: flex;
-            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+            align-content: center;
             background-color: rgb(219, 219, 219);
             font-size: 16px;
         }
         h1 {
             font-size: 45px;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+            background-color: rgb(245, 245, 245);
+            margin: 15px 0 15px 0;
+            padding: 15px;
+            border-radius: 7px;
+        }
+        .fun-info {
+            margin: 0;
+            padding: 5px 0 20px 0;
+            font-style: italic;
+        }
+        .logo-pic {
+            width: 100px;
         }
     </style>
     <title>Recipes | The Odin Project</title>
 </head>
 <body>
-    <h1>Odin Recipes</h1>
-    <a href="recipes/oven-fried-chicken.html">Oven Fried Chicken</a>
-    <a href="recipes/spicy-burger.html">Spicy Chicken Burger</a>
-    <a href="recipes/tomato-toast.html">Tomato Toast</a>
+    <div class="container">
+        <img src="odin.png" class="logo-pic">
+        <h1>Odin Recipes</h1>
+        <p class="fun-info">Odin has many names and is the god of both war and death.</p>
+        <a href="recipes/oven-fried-chicken.html">Oven Fried Chicken</a>
+        <a href="recipes/spicy-burger.html">Spicy Chicken Burger</a>
+        <a href="recipes/tomato-toast.html">Tomato Toast</a>
+    </div>
 </body>
 </html>
