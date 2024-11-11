@@ -1,4 +1,4 @@
-# odin-recipes
+# Odin recipes [HTML/CSS]
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/BurcisWolf/odin-recipes) ![Static Badge](https://img.shields.io/badge/version-1.0-red) ![GitHub top language](https://img.shields.io/github/languages/top/BurcisWolf/odin-recipes)
  ![GitHub forks](https://img.shields.io/github/forks/BurcisWolf/odin-recipes)
